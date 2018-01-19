@@ -24,7 +24,7 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "yaksh_data", "output")
 SECRET_KEY = '0=fsi3g5dw*7ze1cyh441_e^5^$2ay@&z(5(n7mhir0xb267=6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = []
