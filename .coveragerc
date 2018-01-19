@@ -1,0 +1,15 @@
+[run]
+branch = True
+source = .
+omit =
+     *tests*
+     *migrations*
+     yaksh/test_views.py
+     yaksh/test_models.py
+     *management*
+
+[report]
+exclude_lines =
+    except ImportError:
+    raise NotImplementedError
+    if __name__ == .__main__.:
